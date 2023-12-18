@@ -1,0 +1,97 @@
+.background ul, .background li{
+    margin: 0%;
+    padding: 0%;
+}
+.background ul{
+    list-style: none;
+}
+.background li{
+    float:left;
+    position: relative;
+}
+.background a{
+    color:black;
+    display: block;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 47px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu
+{
+    left: 0%;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+}
+li:hover ul#menu
+{
+    opacity: 1;
+    top: 30px;
+    visibility: visible;
+}
+#menu li{
+    float:none;
+    width: 100%;
+}
+#menu {
+    background-color:white;
+    background-size: 10px;
+}
+.circle
+{
+    margin-left: 33%;
+    margin-top: 8%;
+}
+.knowmore{
+    background-color: #95204A;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    margin-left: 5%; 
+}
+.info{
+    margin-left: 47%;
+    margin-top: -25%;
+}
+h3{
+    margin-top: 250px;
+}
+h2{
+    color: #95204A;
+}
+p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.body{
+    background-image: url(./logo.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: initial;      
+}
+.info3{
+    margin-top: 100px;
+}
+.info2 ul{
+ list-style: none;
+}
+.info2 li{
+    float: left;
+    font-size: 20px;
+    padding: 15px 75px;
+}
+.info2 li:hover {
+    background-color: #95204A;
+}
+.form{
+    margin-top: 200px;
+    font-size: 15px;
+}
+h1{
+    color: #95204A;
+}

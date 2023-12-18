@@ -1,0 +1,316 @@
+.background ul, .background li{
+    margin: 0%;
+    padding: 0%;
+}
+.background ul{
+    list-style: none;
+}
+.background li{
+    float:left;
+    position: relative;
+}
+.background a{
+    color:black;
+    display: block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px 47px;
+    text-align: center;
+    text-decoration: none;
+}
+#menu
+{
+    left: 0%;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+}
+li:hover ul#menu
+{
+    opacity: 1;
+    top: 30px;
+    visibility: visible;
+}
+#menu li{
+    float:none;
+    width: 100%;
+}
+#menu {
+    background-color:white;
+    background-size: 10px;
+}
+.circle{
+    width: 250px;
+    height:250px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-image: url(./course1.png);
+}
+.row{
+    text-align: center;
+    color: #95204A;
+    margin-left: -500px;
+}
+.circle1{
+    width: 250px;
+    height:250px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: -350px;
+    background-image: url(./course2.png);
+}
+.row1{
+    text-align: center;
+    color: #95204A;
+    margin-left: 550px;
+}
+.enroll{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 700px;
+    font-size: 30px;
+    
+ }
+ form{
+    text-align: center;
+ }
+ p{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.class{
+    margin-left: 1000px;
+}
+.photo1{
+    background-image: url(./section1.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+ }
+ .photo2{
+    background-image: url(./section2.jpg);
+    background-repeat: no-repeat;
+    background-size: 370px;
+    background-position: center;
+    margin-right: 90px;
+ }
+ .photo3{
+    background-image: url(./section4.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    margin-left: 1100px;
+ }
+ .photo4{
+    background-image: url(./section3.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin-left: -450px;
+ }
+ .section1{
+    margin-left: -650px;
+ }
+ .body{
+    background-image: url(./logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.circle2{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url(./circle2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle3{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 180px;
+    margin-top: -150px;
+    background-image: url(./circle3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle4{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 360px;
+    margin-top: -150px;
+    background-image: url(./circle4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle5{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 540px;
+    margin-top: -150px;
+    background-image: url(./circle6.png);
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle6{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 720px;
+    margin-top: -150px;
+    background-image: url(./circle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle7{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 900px;
+    margin-top: -150px;
+    background-image: url(./circle7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle8{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1080px;
+    margin-top: -150px;
+    background-image: url(./circle5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.circle9{
+    width: 150px;
+    height:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1260px;
+    margin-top: -150px; 
+    background-image: url(./circle8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+.circles ul{
+margin: 2%;
+padding: 0%;
+}
+.circles ul{
+    list-style: none;
+}
+.image{
+    background-image: url(./blogs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.info{
+    width: 300px;
+    height:230px;
+    background-color:dimgray;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.simple{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 110px;
+}
+.info1{
+    width: 300px;
+    height:230px;
+    background-color:dimgray;
+    margin-top: -245px;
+    margin-left: 500px;
+}
+.effective{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 120px;
+}
+.info2{
+    width: 300px;
+    height:230px;
+    background-color:dimgray;
+    margin-top: -250px;
+    margin-left: 1000px;  
+}
+.masks{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 120px;   
+}
+.info3{
+    width: 290px;
+    height:270px;
+    background-color:dimgray;
+    margin-top: 100px;
+    margin-left: 8px;  
+}
+.skin{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 110px;   
+}
+.info4{
+    width: 290px;
+    height:270px;
+    background-color:dimgray;
+    margin-top: -290px;
+    margin-left: 500px;  
+}
+.quick{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 110px;   
+}
+.info5{
+    width: 290px;
+    height:270px;
+    background-color:dimgray;
+    margin-top: -290px;
+    margin-left: 1010px;  
+}
+.kajal{
+    background-color: #95204A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    margin-left: 110px;   
+}
+.photos{
+    color: #95204A;
+}
